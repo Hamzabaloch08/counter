@@ -68,3 +68,49 @@ body{
 .buttons>button:nth-child(2):active{
     background-color: rgb(0, 173, 200);
 }
+
+
+
+@media screen and (max-width: 425px) {
+
+    .counterBox{
+        padding: 30px 20px;
+    }
+    
+    .countNumbers>h1{
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+    
+    .buttons{
+        display: flex;   
+        gap: 0px 10px;
+    }
+    
+    .buttons>button{
+        padding: 10px 26px;
+        font-size: 1.1rem;
+    }
+  }
+
+  @media screen and (max-width: 0) {
+
+    .counterBox{
+        padding: 30px 30px;
+    }
+    
+    .countNumbers>h1{
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+    
+    .buttons{
+        display: flex;   
+        gap: 0px 10px;
+    }
+    
+    .buttons>button{
+        padding: 10px 26px;
+        font-size: 1.1rem;
+    }
+  }
