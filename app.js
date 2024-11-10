@@ -31,3 +31,5 @@ resetAll.addEventListener('click', (e) => {
         resetAll.textContent = 0; // Resets count display to 0
     });
 });
+
+console.log(2+2)
